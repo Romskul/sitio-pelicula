@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    
+}
+
+.tabla {
+    display: table;
+    width: 1200px;
+    margin: auto;
+    border: 10px groove darkgoldenrod;
+}
+
+header {
+    display: table-row;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.titulopeli {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.decoracionheader {
+    width: 18%;
+    vertical-align: middle;
+    
+}
+
+nav { 
+    display: table-row;
+    width: 100%;
+    text-align: center;
+}
+
+.filadorada {
+    display: table-row;
+    width: 100%;
+    background-image: url(../imagenes/telaoro.jfif);
+    
+}
+
+nav ul {
+    list-style: none;
+    background-image: url(../imagenes/telazul.jpg); 
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 65px;
+}
+
+nav li a {
+    display: inline-block;                           
+    text-decoration: none;
+    color: goldenrod;
+    font-family: sans-serif;
+    padding: 6px 15px;
+    font-family: 'Gidugu', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+nav li:hover {
+    background-image: url(../imagenes/telaroja.jpg);
+}
+
+.div_desplegable{
+    background-image: url(../imagenes/telazul.jpg);
+    box-shadow: 5px 8px 25px 0px rgba(0,0,0, 0.2);
+    position: absolute;
+    display: none;  
+}
+
+.div_desplegable a {
+    padding: 9px 15px;
+    color: goldenrod;
+    display: block;
+}
+
+.div_desplegable a:hover {
+    background-image: url(../imagenes/telaroja.jpg);
+}
+
+.li_desplegable:hover .div_desplegable{
+    display: block;
+    
+}
+
+.celdacuerpo {
+    display: table-cell;
+    width: 1200px;
+    height: 900px;
+    text-align: center;
+}
+p {
+    font-family: 'Gidugu', sans-serif;
+    padding: 15px 15px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
