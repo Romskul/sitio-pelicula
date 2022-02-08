@@ -4,33 +4,33 @@ body{
 
 .tabla {
     display: table;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     border: 10px groove darkgoldenrod;
 }
 
 header {
     display: table-row;
-    width: 1200px;
-    height: 150px;
+    max-width: 1200px;
+    max-height: 150px;
     text-align: center;
     margin-top: 35px;
 }
 
 .titulopeli {
-    width: 20%;
+    max-width: 20%;
     vertical-align: middle;
 }
 
 .decoracionheader {
-    width: 18%;
+    max-width: 18%;
     vertical-align: middle;
     
 }
 
 nav { 
     display: table-row;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
 }
 
@@ -51,6 +51,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 65px;
+    transition: background-image .5s;
 }
 
 nav li a {
@@ -69,6 +70,10 @@ nav li:hover {
     background-image: url(../imagenes/telaroja.jpg);
 }
 
+nav li:active {
+    background-image: url(../imagenes/telaroja.jpg);
+}
+
 .div_desplegable{
     background-image: url(../imagenes/telazul.jpg); 
     box-shadow: 5px 8px 25px 0px rgba(0,0,0, 0.2);
@@ -80,9 +85,14 @@ nav li:hover {
     padding: 9px 15px;
     color: goldenrod;
     display: block;
+    transition: background-image .5s;
 }
 
 .div_desplegable a:hover {
+    background-image: url(../imagenes/telaroja.jpg);
+}
+
+.div_desplegable a:active {
     background-image: url(../imagenes/telaroja.jpg);
 }
 
@@ -93,8 +103,8 @@ nav li:hover {
 
 .celdacuerpo {
     display: table-cell;
-    width: 1200px;
-    height: 900px;
+    max-width: 1200px;
+    max-height: 900px;
     text-align: center;
 }
 p {
@@ -103,4 +113,16 @@ p {
     font-size: 24px;
     font-weight: 400;
     color: white;
+}
+
+#cita404 {
+    font-family: 'Gidugu', sans-serif;
+    padding: 15px 15px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+#poster4rooms {
+    max-width: 900px;
 }
