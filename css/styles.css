@@ -61,7 +61,7 @@ nav li a {
     font-family: sans-serif;
     padding: 6px 15px;
     font-family: 'Gidugu', sans-serif;
-    font-size: 24px;
+    font-size: 29px;
     font-weight: 500;
     
 }
@@ -110,7 +110,7 @@ nav li:active {
 p {
     font-family: 'Gidugu', sans-serif;
     padding: 15px 15px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
     color: white;
 }
@@ -125,4 +125,25 @@ p {
 
 #poster4rooms {
     max-width: 900px;
+}
+.celdasinopsis {
+    display: table-cell;
+    width: 70%;
+    vertical-align: middle;
+    text-indent: 40px;
+    
+}
+.celdabotonesarr {
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#sinopsis {
+    padding: 10px;
+    font-size: 27px;
+    line-height: 20px;
+   
+    
 }
