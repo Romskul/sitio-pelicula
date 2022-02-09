@@ -1,5 +1,5 @@
 body{
-    background-color: black;  
+    background-color: #580f18;  
 }
 
 .tabla {
@@ -7,6 +7,7 @@ body{
     max-width: 1200px;
     margin: auto;
     border: 10px groove darkgoldenrod;
+    background-color: black;
 }
 
 header {
@@ -183,14 +184,18 @@ p {
     width: 40%;
     text-align: center;
 }
+
 #celdasuitenupcial {
     display: table-cell;
     width: 60%;
     text-align: left;
-}
-#sinopsissuitenupcial {
     vertical-align: middle;
 }
+
+#sinopsissuitenupcial {
+    padding: 15px;
+}
+
 #brujas {
     max-width: 100%;
     vertical-align: middle;
