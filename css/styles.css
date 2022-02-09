@@ -166,7 +166,7 @@ p {
 
 .titulossinopsis {
     color: white;
-    font-family: 'Gidugu', sans-serif;
+    font-family: 'Aref Ruqaa', serif;
     font-size: 38px;
     font-weight: 400;
     
@@ -193,7 +193,8 @@ p {
 }
 
 #sinopsissuitenupcial {
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
 }
 
 #brujas {
