@@ -6,7 +6,7 @@ body{
     display: table;
     max-width: 1200px;
     margin: auto;
-    border: 10px groove darkgoldenrod;
+    border: 15px groove darkgoldenrod;
     background-color: black;
 }
 
@@ -44,7 +44,6 @@ nav {
     text-align: center;
     position: sticky;
     top: 0;
-    border-bottom: groove 10px darkgoldenrod;
 }
 
 nav ul {
@@ -52,6 +51,8 @@ nav ul {
     background-image: url(../imagenes/telazul.jpg); 
     margin: 0;
     padding: 0;
+    border-bottom: groove 10px darkgoldenrod;
+    border-top: groove 10px darkgoldenrod;
 }
 
 nav li {
