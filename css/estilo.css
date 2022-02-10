@@ -58,7 +58,6 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 65px;
-    transition: background-image .5s;
 }
 
 nav li a {
@@ -91,7 +90,6 @@ nav li:active {
     padding: 9px 15px;
     color: goldenrod;
     display: block;
-    transition: background-image .5s;
 }
 
 .div_desplegable a:hover {
@@ -113,6 +111,8 @@ nav li:active {
     max-height: 900px;
     text-align: center;
 }
+
+
 p {
     font-family: 'Gidugu', sans-serif;
     padding: 15px 15px;
@@ -130,8 +130,21 @@ p {
 }
 
 #poster4rooms {
-    max-width: 900px;
+    width: 700px;
+    max-width: 700px;
 }
+
+.filatrailer {
+    display: table-row;
+    text-align: center;
+}
+
+iframe {
+    width: 600px; 
+    height: 338px;
+    margin-top: 25px;
+}
+
 #celdasinopsis {
     display: table-cell;
     width: 70%;
@@ -203,8 +216,6 @@ p {
     vertical-align: middle;
 }
 
-
-
 .escenas {
     max-width: 95%;
     vertical-align: middle;
@@ -225,6 +236,7 @@ p {
     text-align: center;
     
 }
+
 .decorfinal {
     vertical-align: middle;
     width: 30%;
