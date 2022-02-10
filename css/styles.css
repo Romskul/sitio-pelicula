@@ -21,24 +21,37 @@ header {
 .titulopeli {
     max-width: 20%;
     vertical-align: middle;
+    margin-top: 20px;
 }
 
 .decoracionheader {
     max-width: 18%;
     vertical-align: middle;
+    margin-top: 20px;
     
+}
+
+h1 {
+    color: white;
+    font-family: 'Gidugu', sans-serif;
+    margin: 0;
+    font-weight: 400;
 }
 
 nav { 
     display: table-row;
     max-width: 100%;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .filadorada {
     display: table-row;
     width: 100%;
     background-image: url(../imagenes/telaoro.jfif);
+    position: sticky;
+    top: 65px;
     
 }
 
@@ -59,7 +72,6 @@ nav li a {
     display: inline-block;                           
     text-decoration: none;
     color: goldenrod;
-    font-family: sans-serif;
     padding: 6px 15px;
     font-family: 'Gidugu', sans-serif;
     font-size: 29px;
@@ -141,7 +153,7 @@ p {
     vertical-align: top;
 
 }
-#sinopsis, #sinopsissuitenupcial {
+#sinopsis, .sinopsishab {
     padding-left: 10px;
     padding-top: 5px;
     font-size: 27px;
@@ -150,10 +162,11 @@ p {
     
 }
 #botonesarreglandose {
-    padding: 20px;
+    padding-top: 40px;
+    margin-top: 20px;
 }
 
-#titulosinopsis {
+#titulosinopsis {                       /*atributos del h2 del TITULO de la sinopsis prinipal*/
     font-size: 40px;
     color: white;
     font-family: 'Gidugu', sans-serif;
@@ -162,9 +175,10 @@ p {
     padding-bottom: 0;
     margin-bottom: 0;
     
+    
 }
 
-.titulossinopsis {
+.titulossinopsis {                      /*atributos del h2 de los titulos*/
     color: white;
     font-family: 'Aref Ruqaa', serif;
     font-size: 38px;
@@ -172,33 +186,55 @@ p {
     
 }
 
-#titulosuitenupcial{
+.titulohabitaciones{
     display: table-row;
     width: 100%;
-    text-align: center;
-    
+    text-align: center;    
 }
 
-#celdabruja {
+
+.decorcapitulo {
+    width: 30%;
+}
+
+.celdaescena {
     display: table-cell;
     width: 40%;
     text-align: center;
 }
 
-#celdasuitenupcial {
+.celdasinohab {
     display: table-cell;
     width: 60%;
     text-align: left;
     vertical-align: middle;
 }
 
-#sinopsissuitenupcial {
-    padding-top: 15px;
-    padding-left: 25px;
+
+
+.escenas {
+    max-width: 95%;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#brujas {
-    max-width: 100%;
+.fila_separacion {
+    display: table-row;
+    width: 100%;
+    height: 60px;
+}
+
+.fila_final {
+    display: table-row;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    
+}
+.decorfinal {
     vertical-align: middle;
-    padding: 5px;
+    width: 30%;
+    padding-top: 25px;
+    margin-bottom: 20px;
 }
