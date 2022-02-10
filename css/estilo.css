@@ -243,3 +243,44 @@ iframe {
     padding-top: 25px;
     margin-bottom: 20px;
 }
+.fila_reparto {
+    display: table-row;
+    width: 100%;
+    text-align: center;
+}
+.tituloreparto {
+    color: white;
+    font-family: 'Gidugu', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+
+}
+
+#decoreparto {
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+#decoreparto2 {
+    width: 25%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.celda_reparto {
+    display: table-cell;
+    width: 600px;
+    text-align: center;
+}
+ .titulos_reparto {
+    color: white;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 0;
+    font-size: 21px;
+    
+ }
+
+ .imagen_reparto {
+     width: 30%;
+ }
