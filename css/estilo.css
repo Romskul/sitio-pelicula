@@ -44,6 +44,7 @@ nav {
     text-align: center;
     position: sticky;
     top: 0;
+    border-bottom: groove 10px darkgoldenrod;
 }
 
 nav ul {
