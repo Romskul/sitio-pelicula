@@ -9,6 +9,8 @@ body{
     background-color: #580f18;  
 }
 
+
+
 .tabla {
     display: table;
     max-width: 1200px;
@@ -312,24 +314,34 @@ iframe {
     width: 55%;
     padding: 15px;
     margin-top: 10px;
-    
-    
  }
 
  .celda_texto_reparto {
     display: table-cell;
     width: 80%;
     text-align: left;
-    padding-left: 15px;
+    vertical-align: top;
  }
+    
+
 
  .nombre_actor {
-
- }
+    font-size: 40px;
+    color: white;
+    font-family: 'Gidugu', sans-serif;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    
+ }   
 
  .info_actor {
+    font-size: 24px;
 
 
  }
 
+ 
  
