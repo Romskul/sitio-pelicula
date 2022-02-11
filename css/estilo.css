@@ -199,7 +199,7 @@ iframe {
     font-size: 38px;
     font-weight: 400;
     margin-bottom: 0;
-    
+    margin-top: 0;
 }
 
 .titulohabitaciones{
@@ -218,8 +218,10 @@ iframe {
 }
 
 .decorcapitulo {
-    padding-top: 20px;
     width: 30%;
+    padding-top: 20px;
+    padding-bottom: 0;
+
 }
 
 .celdaescena {
@@ -292,40 +294,46 @@ iframe {
     width: 600px;
     text-align: center;
 }
- .titulos_reparto {
+
+.celda_reparto a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.titulos_reparto {
     color: white;
     font-family: 'Aref Ruqaa', serif;
     padding: 0;
     font-size: 21px;
- }
+}
 
- .imagen_reparto {
+.imagen_reparto {
     width: 40%;
- }
+}
 
- .celda_foto_actor {
+.celda_foto_actor {
     display: table-cell;
     text-align: center;
     width: 20%;
     vertical-align: middle;
- }
+}
 
- .celda_foto_actor [alt*="foto actor"] {
+.celda_foto_actor [alt*="foto actor"] {
     width: 55%;
     padding: 15px;
     margin-top: 10px;
- }
+}
 
- .celda_texto_reparto {
+.celda_texto_reparto {
     display: table-cell;
     width: 80%;
     text-align: left;
-    vertical-align: top;
- }
+    vertical-align: middle;
+}
     
 
 
- .nombre_actor {
+.nombre_actor {
     font-size: 40px;
     color: white;
     font-family: 'Gidugu', sans-serif;
@@ -334,14 +342,19 @@ iframe {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0;
-    
- }   
-
- .info_actor {
-    font-size: 24px;
-
-
- }
+}   
+h3 span {
+    font-size: 30px;
+}
+h3 a {
+    color: white;
+}
+.info_actor {
+    font-size: 26px;
+    margin-top: 0;
+    vertical-align: middle;
+    line-height: 25px;
+}
 
  
- 
+  
