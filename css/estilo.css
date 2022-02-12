@@ -169,7 +169,7 @@ iframe {
 
 }
 #sinopsis, .sinopsishab {
-    padding-left: 10px;
+    padding-left: 20px;
     padding-top: 5px;
     font-size: 27px;
     line-height: 25px;
@@ -186,7 +186,7 @@ iframe {
     color: white;
     font-family: 'Gidugu', sans-serif;
     font-weight: 500;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-bottom: 0;
     margin-bottom: 0;
     
@@ -331,12 +331,13 @@ iframe {
     display: table-cell;
     text-align: center;
     width: 20%;
-    vertical-align: middle;
+    align-content: center;
 }
 
 .celda_foto_actor [alt*="foto actor"] {
     width: 55%;
     margin-top: 40px;
+    vertical-align: middle;
     box-shadow: 10px 10px 20px 5px rgba(42, 21, 163, 0.562);
 }
 
@@ -344,7 +345,7 @@ iframe {
     display: table-cell;
     width: 80%;
     text-align: left;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .nombre_actor {
@@ -369,7 +370,6 @@ h3 a {
 .info_actor {
     font-size: 26px;
     margin-top: 0;
-    vertical-align: middle;
     line-height: 25px;
 }
  .vuelta_reparto {
@@ -423,5 +423,18 @@ h3 a {
     width: 45%;
     padding: 10px;
     margin-right: 25px;  
+}
+
+.texto_footer {
+    font-size: 27px;
+    font-weight: 300;
+    font-family: 'Gidugu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#link_Alexandre {
+    color: white;
 }
   
