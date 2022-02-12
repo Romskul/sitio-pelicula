@@ -151,6 +151,7 @@ iframe {
     width: 600px; 
     height: 338px;
     margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 #celdasinopsis {
@@ -337,7 +338,6 @@ iframe {
     width: 55%;
     margin-top: 40px;
     box-shadow: 10px 10px 20px 5px rgba(42, 21, 163, 0.562);
-    
 }
 
 .celda_texto_reparto {
@@ -388,5 +388,40 @@ h3 a {
     text-decoration-line: none ;
     color: white;
  }
- 
+
+ footer{
+    border-top: groove 10px goldenrod;
+}
+
+.celda_logo1 {
+    display: table-cell;
+    width: 200px;
+    text-align: left; 
+    vertical-align: middle;
+}
+
+.celda_footer{
+    display: table-cell;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.celda_logo2 {
+    display: table-cell;
+    width: 200px;
+    text-align: right; 
+    vertical-align: middle;
+}
+#logo_miramax {
+    width: 55%;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+#logo_abandapart {
+    width: 45%;
+    padding: 10px;
+    margin-right: 25px;  
+}
   
