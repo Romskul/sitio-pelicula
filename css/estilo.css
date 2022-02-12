@@ -77,7 +77,6 @@ nav li a {
     font-family: 'Gidugu', sans-serif;
     font-size: 29px;
     font-weight: 500;
-    
 }
 
 nav li:hover {
@@ -254,8 +253,7 @@ iframe {
     display: table-row;
     width: 100%;
     height: 60px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .decorfinal {
@@ -264,11 +262,13 @@ iframe {
     padding-top: 25px;
     margin-bottom: 20px;
 }
+
 .fila_reparto {
     display: table-row;
     width: 100%;
     text-align: center;
 }
+
 .tituloreparto {
     color: white;
     font-family: 'mona_lisa_solidregular', sans-serif;
@@ -276,7 +276,6 @@ iframe {
     font-weight: 200;
     padding: 0;
     margin: 5px;
-
 }
 
 #decoreparto {
@@ -284,11 +283,25 @@ iframe {
     padding-top: 20px;
     padding-bottom: 0px;
 }
+
 #decoreparto2 {
     width: 27%;
     padding-top: 0px;
     padding-bottom: 20px;
 }
+
+.celda_reparto_hotel{
+    display: table-cell;
+    width: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.celda_reparto_hotel a {
+    text-decoration-line: none;
+    color: white;
+}
+
 .celda_reparto {
     display: table-cell;
     width: 600px;
@@ -310,7 +323,9 @@ iframe {
 .imagen_reparto {
     width: 40%;
 }
-
+#botones_cargado{
+    width: 10%;
+}
 .celda_foto_actor {
     display: table-cell;
     text-align: center;
@@ -330,8 +345,6 @@ iframe {
     text-align: left;
     vertical-align: middle;
 }
-    
-
 
 .nombre_actor {
     font-size: 40px;
@@ -343,18 +356,36 @@ iframe {
     padding-bottom: 0;
     margin: 0;
 }   
+
 h3 span {
     font-size: 30px;
 }
+
 h3 a {
     color: white;
 }
+
 .info_actor {
     font-size: 26px;
     margin-top: 0;
     vertical-align: middle;
     line-height: 25px;
 }
+ .vuelta_reparto {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: groove 10px goldenrod;
+    background-image: url(../imagenes/telazul.jpg);
+ }
 
+ .texto_vuelta {
+    font-size: 27px;
+    font-weight: 300;
+    font-family: 'Gidugu', sans-serif;
+    margin: 15px;
+    text-decoration-line: none ;
+    color: white;
+ }
  
   
