@@ -371,6 +371,7 @@ h3 a {
     font-size: 26px;
     margin-top: 0;
     line-height: 25px;
+    vertical-align: middle;
 }
  .vuelta_reparto {
     position: fixed;
