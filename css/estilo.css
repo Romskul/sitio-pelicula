@@ -83,7 +83,7 @@ nav li:hover {
     background-image: url(../imagenes/telaroja.jpg);
 }
 
-nav li:active {
+.pag_activa {
     background-image: url(../imagenes/telaroja.jpg);
 }
 
@@ -331,7 +331,7 @@ iframe {
     display: table-cell;
     text-align: center;
     width: 20%;
-    align-content: center;
+    vertical-align: middle;
 }
 
 .celda_foto_actor [alt*="foto actor"] {
