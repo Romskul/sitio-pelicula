@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Gidugu&display=swap');
 body{
     background-color: #580f18;  
 }
@@ -47,7 +48,7 @@ h1 {
     font-weight: 400;
 }
 
-nav { 
+.navegacion { 
     display: table-row;
     max-width: 100%;
     text-align: center;
@@ -55,7 +56,7 @@ nav {
     top: 0;
 }
 
-nav ul {
+.navegacion ul {
     list-style: none;
     background-image: url(../imagenes/telazul.jpg); 
     margin: 0;
@@ -64,12 +65,12 @@ nav ul {
     border-top: groove 10px darkgoldenrod;
 }
 
-nav li {
+.navegacion li {
     display: inline-block;
     margin-left: 65px;
 }
 
-nav li a {
+.navegacion a {
     display: inline-block;                           
     text-decoration: none;
     color: goldenrod;
@@ -79,12 +80,40 @@ nav li a {
     font-weight: 500;
 }
 
-nav li:hover {
+.navegacion li:hover {
     background-image: url(../imagenes/telaroja.jpg);
 }
 
 .pag_activa {
     background-image: url(../imagenes/telaroja.jpg);
+}
+
+
+
+.subnavegador {
+    display: table-row;
+    max-width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.subnavegador li{
+    display: inline;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.subnavegador a{
+    font-family: 'Gidugu', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.pag_activa2 {
+    color: goldenrod;
 }
 
 .div_desplegable{
@@ -169,6 +198,7 @@ iframe {
 
 }
 #sinopsis, .sinopsishab {
+    font-family: 'Gidugu', sans-serif;
     padding-left: 20px;
     padding-top: 5px;
     font-size: 27px;
@@ -218,7 +248,7 @@ iframe {
 }
 
 .decorcapitulo {
-    width: 30%;
+    width: 27%;
     padding-top: 20px;
     padding-bottom: 0;
 
@@ -259,7 +289,7 @@ iframe {
 
 .decorfinal {
     vertical-align: middle;
-    width: 30%;
+    width: 27%;
     padding-top: 25px;
     margin-bottom: 20px;
 }
