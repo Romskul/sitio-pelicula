@@ -476,6 +476,7 @@ table {
     width: 1200px;
     margin-top: 30px;
     margin-bottom: 30px; 
+    margin-left: -10px;
 
 }
 th {
@@ -488,7 +489,7 @@ th {
 
 td {
     color: white;
-    width: 300px;
+    width: 250px;
     padding: 10px;
 }
 
